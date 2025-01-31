@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c7ff14d43ee2debcc7a34be9e9fbf546 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c7ff14d43ee2debcc7a34be9e9fbf546" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c7ff14d43ee2debcc7a34be9e9fbf546 = L.map(
+                "map_c7ff14d43ee2debcc7a34be9e9fbf546",
+                {
+                    center: [-1.5, 35.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c8ed1c85b76ab3e9d20a6bc6df68eb2d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c8ed1c85b76ab3e9d20a6bc6df68eb2d.addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+            var marker_6b9cbb8e6de5405e78d98666848bba77 = L.marker(
+                [-1.323395, 35.144538],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_e791b948a43a14c984aada38c4f7bf4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f134674b92d1aa63c657532737c2d87 = $(`<div id="html_8f134674b92d1aa63c657532737c2d87" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: sheep<br>Time: 2024-03-05 08:10:00+03:00</div>`)[0];
+                popup_e791b948a43a14c984aada38c4f7bf4a.setContent(html_8f134674b92d1aa63c657532737c2d87);
+            
+        
+
+        marker_6b9cbb8e6de5405e78d98666848bba77.bindPopup(popup_e791b948a43a14c984aada38c4f7bf4a)
+        ;
+
+        
+    
+    
+            var marker_c8737153b30c7210d86887f2bc1d7503 = L.marker(
+                [-1.319043, 35.146232],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_94b1f577c95a42bc4a7473860a0fe0cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_080f987f31c18a9c95c27d1a3533a39e = $(`<div id="html_080f987f31c18a9c95c27d1a3533a39e" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: cow<br>Time: 2024-03-08 09:42:54+03:00</div>`)[0];
+                popup_94b1f577c95a42bc4a7473860a0fe0cf.setContent(html_080f987f31c18a9c95c27d1a3533a39e);
+            
+        
+
+        marker_c8737153b30c7210d86887f2bc1d7503.bindPopup(popup_94b1f577c95a42bc4a7473860a0fe0cf)
+        ;
+
+        
+    
+    
+            var marker_411d90bab145a01697563c646f54b2fd = L.marker(
+                [-1.087949, 35.295242],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_2ccdbb5bfaa1d7d8921aeabd16d491b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6583956328e8d11b8cf2898ef18f2c1 = $(`<div id="html_e6583956328e8d11b8cf2898ef18f2c1" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: cow<br>Time: 2024-03-09 19:00:00+03:00</div>`)[0];
+                popup_2ccdbb5bfaa1d7d8921aeabd16d491b5.setContent(html_e6583956328e8d11b8cf2898ef18f2c1);
+            
+        
+
+        marker_411d90bab145a01697563c646f54b2fd.bindPopup(popup_2ccdbb5bfaa1d7d8921aeabd16d491b5)
+        ;
+
+        
+    
+    
+            var marker_9623bdceb2f8ea1add0f26a9e420372e = L.marker(
+                [-1.711653, 35.42801],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_d90b695541b7719322f06df16cd2b080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a2a0ca962e7a330c0b1ab9c86ae7f76 = $(`<div id="html_7a2a0ca962e7a330c0b1ab9c86ae7f76" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: cow<br>Time: 2024-03-16 09:49:00+03:00</div>`)[0];
+                popup_d90b695541b7719322f06df16cd2b080.setContent(html_7a2a0ca962e7a330c0b1ab9c86ae7f76);
+            
+        
+
+        marker_9623bdceb2f8ea1add0f26a9e420372e.bindPopup(popup_d90b695541b7719322f06df16cd2b080)
+        ;
+
+        
+    
+    
+            var marker_f93f82cf82ab91d808a430096c69055a = L.marker(
+                [-1.045439, 35.352031],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_53c9755594700d6833f2889ddf636323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_746410af029f0c91a27287193570552d = $(`<div id="html_746410af029f0c91a27287193570552d" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: sheep<br>Time: 2024-04-08 02:00:00+03:00</div>`)[0];
+                popup_53c9755594700d6833f2889ddf636323.setContent(html_746410af029f0c91a27287193570552d);
+            
+        
+
+        marker_f93f82cf82ab91d808a430096c69055a.bindPopup(popup_53c9755594700d6833f2889ddf636323)
+        ;
+
+        
+    
+    
+            var marker_dace318097d7ad48170033e27e982d84 = L.marker(
+                [-1.279868, 35.124276],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_2d1ee32fec7521dd59d50e4e8d34c400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d131d682599b815a3662db345e301fc2 = $(`<div id="html_d131d682599b815a3662db345e301fc2" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: cow<br>Time: 2024-04-08 05:29:00+03:00</div>`)[0];
+                popup_2d1ee32fec7521dd59d50e4e8d34c400.setContent(html_d131d682599b815a3662db345e301fc2);
+            
+        
+
+        marker_dace318097d7ad48170033e27e982d84.bindPopup(popup_2d1ee32fec7521dd59d50e4e8d34c400)
+        ;
+
+        
+    
+    
+            var marker_dc857853709de7bf7bca97a7f5aefcf8 = L.marker(
+                [-1.242983, 35.364153],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_3118d678b2ff0edad49679c7814ddf3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2af21252f68a8606986e99e0f8b0a9b7 = $(`<div id="html_2af21252f68a8606986e99e0f8b0a9b7" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: cow<br>Time: 2024-05-03 09:13:51.112999+03:00</div>`)[0];
+                popup_3118d678b2ff0edad49679c7814ddf3b.setContent(html_2af21252f68a8606986e99e0f8b0a9b7);
+            
+        
+
+        marker_dc857853709de7bf7bca97a7f5aefcf8.bindPopup(popup_3118d678b2ff0edad49679c7814ddf3b)
+        ;
+
+        
+    
+    
+            var marker_478b32e61130c9e685f31aeb9d9f6916 = L.marker(
+                [-1.180115, 35.039232],
+                {}
+            ).addTo(map_c7ff14d43ee2debcc7a34be9e9fbf546);
+        
+    
+        var popup_0f9d20add969d55421da04bce51bdda4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29fa6477cd36d2bf602825ec2c3893ce = $(`<div id="html_29fa6477cd36d2bf602825ec2c3893ce" style="width: 100.0%; height: 100.0%;">Species: lion<br>Livestock: cow<br>Time: 2024-05-03 09:22:23.124001+03:00</div>`)[0];
+                popup_0f9d20add969d55421da04bce51bdda4.setContent(html_29fa6477cd36d2bf602825ec2c3893ce);
+            
+        
+
+        marker_478b32e61130c9e685f31aeb9d9f6916.bindPopup(popup_0f9d20add969d55421da04bce51bdda4)
+        ;
+
+        
+    
+</script>
+</html>
